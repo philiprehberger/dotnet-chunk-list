@@ -1,5 +1,9 @@
 # Philiprehberger.ChunkList
 
+[![CI](https://github.com/philiprehberger/dotnet-chunk-list/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-chunk-list/actions/workflows/ci.yml)
+[![NuGet](https://img.shields.io/nuget/v/Philiprehberger.ChunkList.svg)](https://www.nuget.org/packages/Philiprehberger.ChunkList)
+[![License](https://img.shields.io/github/license/philiprehberger/dotnet-chunk-list)](LICENSE)
+
 Split any `IEnumerable<T>` into fixed-size chunks with a simple static method or LINQ-style extension.
 
 ## Install
