@@ -60,6 +60,12 @@ var pairs = words.ChunkBy(2);
 - Throws `ArgumentOutOfRangeException` if `size` is zero or negative.
 - Enumeration is lazy — chunks are produced on demand.
 
+## Development
+
+```bash
+dotnet build src/Philiprehberger.ChunkList.csproj --configuration Release
+```
+
 ## License
 
 MIT
