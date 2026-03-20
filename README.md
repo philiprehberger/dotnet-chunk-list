@@ -6,7 +6,7 @@
 
 Split any `IEnumerable<T>` into fixed-size chunks with a simple static method or LINQ-style extension.
 
-## Install
+## Installation
 
 ```bash
 dotnet add package Philiprehberger.ChunkList
