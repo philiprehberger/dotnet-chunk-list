@@ -41,6 +41,40 @@ var pairs = words.ChunkBy(2);
 // ["a","b"], ["c","d"], ["e"]
 ```
 
+### Custom Chunk Size
+
+```csharp
+using Philiprehberger.ChunkList;
+
+var items = Enumerable.Range(1, 10);
+var pairs = EnumerableChunker.Chunk(items, 2);
+// [[1, 2], [3, 4], [5, 6], [7, 8], [9, 10]]
+```
+
+### Extension Method
+
+```csharp
+using Philiprehberger.ChunkList;
+
+var names = new[] { "Alice", "Bob", "Charlie", "Dave", "Eve" };
+foreach (var group in names.ChunkBy(2))
+{
+    Console.WriteLine(string.Join(", ", group));
+}
+// Alice, Bob
+// Charlie, Dave
+// Eve
+```
+
+### Edge Cases
+
+```csharp
+using Philiprehberger.ChunkList;
+
+var empty = Array.Empty<int>().ChunkBy(3); // yields nothing
+var small = new[] { 1, 2 }.ChunkBy(5);    // [[1, 2]] — single chunk
+```
+
 ## API
 
 ### `EnumerableChunker`
