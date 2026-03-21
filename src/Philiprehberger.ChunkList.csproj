@@ -7,9 +7,9 @@
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <PackageId>Philiprehberger.ChunkList</PackageId>
-    <Version>0.1.5</Version>
+    <Version>0.1.6</Version>
     <Authors>Philip Rehberger</Authors>
-    <Description>Split IEnumerable into evenly sized chunks</Description>
+    <Description>Split any IEnumerable into fixed-size chunks with a simple static method or LINQ-style extension.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/philiprehberger/dotnet-chunk-list</RepositoryUrl>
     <RepositoryType>git</RepositoryType>

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.6 (2026-03-21)
+
+- Align README and csproj descriptions
+
 ## 0.1.5
 
 - Expand README with custom size, extension method, and edge case examples
