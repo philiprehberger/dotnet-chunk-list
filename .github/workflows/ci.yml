@@ -17,6 +17,7 @@ jobs:
           dotnet-version: '8.0.x'
       - run: dotnet restore src/Philiprehberger.ChunkList.csproj
       - run: dotnet build src/Philiprehberger.ChunkList.csproj --configuration Release --no-restore
+      - run: dotnet test tests/Philiprehberger.ChunkList.Tests/Philiprehberger.ChunkList.Tests.csproj --configuration Release --no-restore
 
   publish:
     needs: build
