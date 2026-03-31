@@ -2,8 +2,7 @@
 
 [![CI](https://github.com/philiprehberger/dotnet-chunk-list/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-chunk-list/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.ChunkList.svg)](https://www.nuget.org/packages/Philiprehberger.ChunkList)
-[![License](https://img.shields.io/github/license/philiprehberger/dotnet-chunk-list)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/dotnet-chunk-list)](https://github.com/philiprehberger/dotnet-chunk-list/commits/main)
 
 Split any IEnumerable into fixed-size chunks with a simple static method or LINQ-style extension.
 
@@ -100,6 +99,24 @@ var small = new[] { 1, 2 }.ChunkBy(5);    // [[1, 2]] — single chunk
 ```bash
 dotnet build src/Philiprehberger.ChunkList.csproj --configuration Release
 ```
+
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/dotnet-chunk-list)
+
+🐛 [Report issues](https://github.com/philiprehberger/dotnet-chunk-list/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/dotnet-chunk-list/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
 
 ## License
 
